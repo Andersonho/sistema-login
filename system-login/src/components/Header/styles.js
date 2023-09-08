@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
 export const BuscarInputContainer = styled.div`
     width:175px;
     height:30px;
-    background: #2d2d37;;
+    background: #2d2d37;
     border-radius: 8px;
     padding: 2px 5px;
     margin: 0 12px;
@@ -54,15 +54,15 @@ export const Menu = styled.a`
     margin-right: 12px;
     text-decoration:none;
 `
-// export const MenuRigth = styled.a`
-//     font-family:'Open Sans';
-//     font-style: normal;
-//     font-size:12px;
-//     line-height: 25px;
-//     color: FFFFFF;
-//     margin-right: 12px;
-//     text-decoration:none;
-// `
+export const MenuRight = styled.a`
+    font-family:'Open Sans';
+    font-style: normal;
+    font-size:12px;
+    line-height: 25px;
+    color: FFFFFF;
+    margin-right: 12px;
+    text-decoration:none;
+`
 export const UserPicture = styled.img`
     width: 32px;
     height: 32px;
