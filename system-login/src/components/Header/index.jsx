@@ -3,7 +3,7 @@ import logo from '../../assets/logo.png';
 import {Button} from '../Button';
 
 import {
-    // BuscarInputConatiner,
+    BuscarInputContainer,
     Container,
     Input,
     Menu,
@@ -18,14 +18,14 @@ const Header = () => {
         <Container>
             <Row>
                 <img src={logo} alt="logo da PH"/> 
-                {/* <BuscarInputConatiner> */}
+                <BuscarInputContainer>
                     <Input placeholder='Buscar...'/>
-                {/* </BuscarInputConatiner> */}
+                </BuscarInputContainer>
                 <Menu>Live Code</Menu>
                 <Menu>Global</Menu> 
             </Row>
             <Row>
-            {/* <MenuRight href="#">Home</MenuRight>  */}
+            {/* <MenuRight  href="#">Home</MenuRight>  */}
                 <Button title= "Entrar"/>
                 <Button title= "Cadastrar"/>
             </Row>
