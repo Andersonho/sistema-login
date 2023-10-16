@@ -8,7 +8,7 @@ import {
     Container,
     TextContent, 
     Title,
-    // TitleHightlight
+    TitleHightlight
     } from './styles';
 
 const Home =() => {
@@ -17,9 +17,10 @@ const Home =() => {
         <Container>
             <div>
                 <Title>
-                    {/* <TitleHightlight>
+                    <TitleHightlight>
                     Realize o seu cadastro
-                    </TitleHightlight> */}
+                    <br/>
+                    </TitleHightlight>
                     O seu acesso depende disso!!
                 </Title>
                 <TextContent>

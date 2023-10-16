@@ -22,7 +22,7 @@ export const Title = styled.h2`
     line-height: 44px;
     color: #FFFFFF;
 `
-export const TitleHighlight = styled.span`
+export const TitleHightlight = styled.span`
      color: #E4105D;
 `
 export const TextContent = styled.p`

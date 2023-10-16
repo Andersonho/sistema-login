@@ -1,43 +1,37 @@
 // import {Link} from 'react-router-dom';
-// import{Button} from "../../components/Button";
-// import {Header} from "../../components/Header";
+import{Button} from "../../components/Button";
+import {Header} from "../../components/Header";
+import {Input} from "../../components/Input";
 
-// import { Input } from "../../components/Input";
-// import bannerImage from '../../assets/banner.png';
+import {Container, Title, Column, CriarText, EsqueciText, Row, SubtitleLogin, TitleLogin, Wrapper} from './styles';
 
-// import {
-//     Column,
-//     Container,
-//     CriarText,
-//     EsqueciText,
-//     TitleLogin,
-//     SubTitleLogin,
-//     Wrapper,
-//     Row, 
-//     Title,
-//     // TitleHightlight
-//     } from './styles';
-
-// const Login =() => {
-//     return (<>
-//         <Header/>
-//         <Container>
-//             <div>
-//                 <Title>
-//                     {/* <TitleHightlight>
-//                     Realize o seu cadastro
-//                     </TitleHightlight> */}
-//                     O seu acesso depende disso!!
-//                 </Title>
-//                 <TextContent>
-//                 sloga para a utilização da plataforma como um meio utilitario para a pratica medica.
-//                 </TextContent>
-//                 <Button title="Começar agora" variant="secodary" onClick={()=> null}/>
-//             </div>
-//             <div>
-//                 <Input placeholder = "email"/>
-//             </div>
-//         </Container>
-//     </> )
-// }
-// export {Login}
+const Login =() => {
+    return (<>
+        <Header/>
+        <Container>
+            <Column>
+                <Title>
+                    
+                sloga para a utilização da plataforma como um meio utilitario para a pratica medica.
+                </Title>
+            </Column>
+            <Column>
+                <Wrapper>
+                    <TitleLogin>Faça seu cadastro</TitleLogin>
+                    <SubtitleLogin>Faça seu login e make the change.</SubtitleLogin>
+                    <form>
+                        <Input placeholder="Email"/> 
+                        <Input placeholder="Senha" type="password"/>  
+                        <Button title="Entrar" variant ="secondary"/>
+                    </form>
+                    <Row>
+                        <EsqueciText>Esqueci minha  senha </EsqueciText>
+                        <CriarText>Criar conta</CriarText>
+                    </Row>
+                </Wrapper>
+               
+            </Column>
+        </Container>
+    </> )
+}
+export {Login}
