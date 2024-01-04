@@ -1,4 +1,4 @@
-// import {Link} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import{Button} from "../../components/Button";
 import {Header} from "../../components/Header";
 
@@ -12,6 +12,11 @@ import {
     } from './styles';
 
 const Home =() => {
+    const navigate = useNavigate();
+
+    const handleClickSignIn = () => {
+        navigate('/login')
+    }
     return (<>
         <Header/>
         <Container>
@@ -26,7 +31,7 @@ const Home =() => {
                 <TextContent>
                 sloga para a utilização da plataforma como um meio utilitario para a pratica medica.
                 </TextContent>
-                <Button title="Começar agora" variant="secodary" onClick={()=> null}/>
+                <Button title="Começar agora" variant="secodary" onClick={handleClickSignIn}/>
             </div>
             <div>
                 <img src = {bannerImage} alt ="Imagem principal"/>

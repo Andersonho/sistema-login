@@ -18,12 +18,12 @@ export const Row = styled.div`
 
 
 `
-// export const Column = styled.div`
-//     display: flex;
-//     flex-direction:column;
-//     align-items: center;
+export const Column = styled.div`
+    display: flex;
+    flex-direction:column;
+    align-items: center;
 
-// `
+`
 export const Wrapper = styled.div`
     background-color:#151515;
     width:100%;
@@ -48,7 +48,7 @@ export const BuscarInputContainer = styled.div`
 export const Menu = styled.a`
     font-family:'Open Sans';
     font-style: normal;
-    font-size:12px;
+    font-size:18px;
     line-height: 25px;
     color: FFFFFF;
     margin-right: 12px;
