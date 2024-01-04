@@ -17,7 +17,7 @@ const Card = () => {
         <ImageBackground/>
         <Content>
             <UserInfo>
-                <UserPicture/>
+                <UserPicture />
                 <div>
                     <h4>Anderson</h4>
                     <p>Há 6 minutos</p>

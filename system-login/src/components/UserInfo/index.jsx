@@ -1,16 +1,15 @@
 import React from 'react'
 
-import { Container,NameText, Progress} from './styles';
+import { Container,NameText, UserPicture, Progress} from './styles';
 
-const UserInfo = () => {
+const UserInfo = (nome,image, percentual) => {
   return (
     <Container>
-        <UserInfo>
-            <div>
-                <NameText>{}</NameText>
-                <Progress/>
-            </div>
-        </UserInfo>
+        <UserPicture src={image}/>
+          <div>
+              <NameText>nome</NameText>
+              <Progress percentual={percentual}/>
+          </div>
     </Container>
   )
 }
