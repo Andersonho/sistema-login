@@ -34,8 +34,7 @@ const Login =() => {
         <Container>
             <Column>
                 <Title>
-                    
-                sloga para a utilização da plataforma como um meio utilitario para a pratica medica.
+                    sloga para a utilização da plataforma como um meio utilitario para a pratica medica.
                 </Title>
             </Column>
             <Column>
